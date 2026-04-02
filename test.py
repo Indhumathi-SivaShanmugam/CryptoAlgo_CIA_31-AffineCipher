@@ -1,5 +1,5 @@
 """
-test.py — 5 hand-picked input tests
+test.py — 5 input test cases
 ===========================================
 Each test encrypts a message, decrypts it, and confirms we get back the original.
 Prints a clear PASS / FAIL for each case.
