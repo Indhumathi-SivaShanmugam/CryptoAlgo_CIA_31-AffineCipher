@@ -9,7 +9,7 @@ A custom affine cipher implementation with two twists: a **keyboard-order charac
 ```
 affine.py          — Affine cipher (encrypt / decrypt + key derivation)
 hash.py            — Keyboard ripple interference hash
-test_roundtrip.py  — Automated test suite (10 test groups)
+test.py            — 5 test cases 
 ```
 
 ---
@@ -134,16 +134,12 @@ This prints hash values for several sample strings, an avalanche check (small in
 ### Run the full test suite
 
 ```bash
-python test_roundtrip.py
+python test.py
 ```
+### OUTPUT (test.py)
+<img width="746" height="759" alt="image" src="https://github.com/user-attachments/assets/2360384f-f16d-4b7a-8cc9-28aa3268e7f4" />
 
-All 10 test groups run automatically. Expected output ends with:
 
-```
-============================================================
-  Results: N/N passed  |  0 failed
-============================================================
-```
 
 Exit code is `0` on full pass, `1` if any test fails.
 
